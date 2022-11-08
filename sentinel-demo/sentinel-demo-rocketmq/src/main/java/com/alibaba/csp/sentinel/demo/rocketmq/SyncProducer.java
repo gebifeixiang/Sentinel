@@ -22,6 +22,7 @@ import org.apache.rocketmq.remoting.common.RemotingHelper;
 
 public class SyncProducer {
 
+
     public static void main(String[] args) throws Exception {
         // Instantiate with a producer group name.
         DefaultMQProducer producer = new DefaultMQProducer(Constants.TEST_GROUP_NAME);
